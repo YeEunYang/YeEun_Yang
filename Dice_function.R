@@ -20,7 +20,7 @@ hist(z3,freq=F)
 
 # i could learn that more trial number, it gets more similar to normal dist.
 
-
+par(mfrow=c(1,2))
 #################################
 #    working in lecture 6       #
 #################################
@@ -39,6 +39,8 @@ hist(x,main="mean=0,sd=1")
 
 x <- seq(-4, 4, length=100)
 hx <- dnorm(x)
+
+
 
 degf <- c(1, 3, 8, 30)
 colors <- c("red", "blue", "darkgreen", "gold", "black")
